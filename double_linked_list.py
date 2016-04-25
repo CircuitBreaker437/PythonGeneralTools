@@ -1,6 +1,6 @@
 # Filename: double_linked_list.py
 # Programmer: Marcin Czajkowski
-# Revision: 2.0 - added Linked list controls and a small test
+# Revision: 3.0 - Syntax fixed - line 50 missing ':'
 # Purpose: The purpose of this script is to create a doubly linked list example.
 #          The single linked list can be achieved by removing the previous node reference.
 
@@ -47,7 +47,7 @@ class Node(object):
 class LinkedList (object):
 
     #Constructor:
-	def __init__(self, rootNode)
+	def __init__(self, rootNode):
 		self.root = rootNode
 		self.size = 0
 		
