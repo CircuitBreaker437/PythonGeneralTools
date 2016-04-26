@@ -1,7 +1,11 @@
 # Filename: double_linked_list.py
 # Programmer: Marcin Czajkowski
+<<<<<<< HEAD
 # Revision: 4.0 - Final working version - fixed references to nodes in linked list 
 #                 in removeNode() method
+=======
+# Revision: 3.0 - Syntax fixed - line 50 missing ':'
+>>>>>>> e4fbe07ded490fececa1b4736a74fa0387a39efa
 # Purpose: The purpose of this script is to create a doubly linked list example.
 #          The single linked list can be achieved by removing the previous node reference.
 
@@ -47,7 +51,11 @@ class Node(object):
 class LinkedList (object):
 
     #Constructor:
+<<<<<<< HEAD
 	def __init__(self, rootNode = None):
+=======
+	def __init__(self, rootNode):
+>>>>>>> e4fbe07ded490fececa1b4736a74fa0387a39efa
 		self.root = rootNode
 		self.size = 0
 		
@@ -110,6 +118,7 @@ print('Adding new node with data = 50 ...')
 newList.addNode(50)
 print('Adding new node with data = 60 ...')
 newList.addNode(60)
+<<<<<<< HEAD
 print('Current list size is: ' + str(newList.getSize()))
 print('Removing node with data = 20. Node removed: ' + str(newList.removeNode(20)))
 print('Current list size is: ' + str(newList.getSize()))
@@ -118,4 +127,13 @@ print('Removing node with data = 20. Node removed: ' + str(newList.removeNode(20
 print('Current list size is: ' + str(newList.getSize()))
 print('Searching for node with data = 5: ' + str(newList.findNode(5)))
 print('Searching for node with data = 50: ' + str(newList.findNode(50)))
+=======
+newList.getSize()
+newList.remove(20)
+newList.getSize()
+print(newList.remove(10))
+newList.getSize()
+print(newList.find(5))
+print(newList.find(50))
+>>>>>>> e4fbe07ded490fececa1b4736a74fa0387a39efa
 		
