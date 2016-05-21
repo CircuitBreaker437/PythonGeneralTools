@@ -1,6 +1,6 @@
-# Filename: tower_of_hanoi.py
+# Filename: towers_of_hanoi.py
 # Programmer: Marcin Czajkowski
-# Revision: 1.0 
+# Revision: 1.1 
 # Purpose: Simple algorithm for towers of hanoi
 
 import sys
