@@ -30,6 +30,6 @@ while(True):
 		#detected invalid value that cannot be an integer
 		continue
 
-#User iput validated - tart the HANOI algorithm
+#User iput validated - start the HANOI algorithm
 move_disk(disks_num, "SOURCE", "TRANSFER", "DESTINATION")
 print ("Total number of moves = %s" % NUM_OF_MOVES)
